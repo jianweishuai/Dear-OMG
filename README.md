@@ -7,6 +7,10 @@
 - Test results reveal that, compared to the commonly used proteomics formats of mzXML and mzML, the OMG format achieves an **80% reduction in storage space**, a **90% decrease in conversion time**, and approximately a **10-fold speed improvement** with support for parallel random access.
 
 ## DearOMG Usage
+
+- DearOMG-community.exe use for *.d, *.imzML and *.fastq files.
+- DearOMG-vendor.exe use for *.wiff and *.raw files.
+
 ```
  Development team from Xiamen University.
 
