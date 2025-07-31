@@ -1,0 +1,41 @@
+# Dear-OMG Python API Requirements
+# 
+# This file lists the Python dependencies required for the Dear-OMG Python API.
+# Install these dependencies using: pip install -r requirements.txt
+#
+# Note: The Dear-OMG Python API is a wrapper around the native C++ executables
+# and does not require heavy scientific computing libraries. The API primarily
+# uses Python standard library modules for subprocess management and file operations.
+
+# Core dependencies (Python standard library modules used):
+# - os (built-in)
+# - sys (built-in) 
+# - subprocess (built-in)
+# - json (built-in)
+# - pathlib (built-in)
+# - typing (built-in in Python 3.5+)
+
+# Optional dependencies for enhanced functionality:
+# Uncomment the following lines if you want additional features
+
+# For better path handling (already included in Python 3.4+)
+# pathlib2>=2.3.0; python_version<"3.4"
+
+# For enhanced type checking during development
+# mypy>=0.910
+
+# For testing the API
+# pytest>=6.0.0
+# pytest-cov>=2.10.0
+
+# For documentation generation
+# sphinx>=4.0.0
+# sphinx-rtd-theme>=0.5.0
+
+# For code formatting and linting
+# black>=21.0.0
+# flake8>=3.8.0
+# isort>=5.0.0
+
+# Note: This API is designed to be lightweight and uses only Python standard library
+# modules to minimize dependencies and ensure compatibility across different environments.
